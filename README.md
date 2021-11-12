@@ -7,7 +7,7 @@ Link to the dataset: https://www.kaggle.com/imakash3011/customer-personality-ana
 * Python Version: 3.9.5
 * Packages: NumPy, pandas, Matplotlib, seaborn, scikit-learn
 
-# Features 
+# Columns 
 * ID: customer's unique identifier
 * Year_Birth: customer's birth year
 * Education: customer's education level
