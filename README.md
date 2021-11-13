@@ -80,7 +80,7 @@ From the results of the clustering process, there are four types of customer:
 
 1. 48% of customers (Majority)
 * All of them are Postgraduates
-* Higher number of people who are in relationship than single people
+* Higher number of customers who are in relationship than single customers
 * Have an approximately 20k-50k of income
 * Around 25 to 60 years old with the maximum around 35 to 45 years old
 * Bought approximately 50-400 products
@@ -90,8 +90,8 @@ From the results of the clustering process, there are four types of customer:
 * Highest number of customers who have loyalty with the company for a long period of time
 
 2. 38% of customers
-* Slightly lower number of Postgraduates than 48% of people
-* It's the same circumstances as 48% of people but slightly lower number of people
+* Slightly lower number of Postgraduates than 48% of customers
+* It's the same circumstances as 48% of customers but slightly lower number of customers
 * Have an approximately 40k-80k of income
 * Around 30 to 70 years old with the maximum around 45 to 60 years old
 * Bought approximately 500-1700 products
@@ -101,8 +101,8 @@ From the results of the clustering process, there are four types of customer:
 * Slightly lower number of loyal customers compared to 48% of customers
 
 3. 12% of customers 
-* Significantly lower Postgraduates than the 38% of people 
-* The number of people who are in relationship are slightly higher than single people
+* Significantly lower Postgraduates than the 38% of customers 
+* The number of customers who are in relationship are slightly higher than single customers
 * Have an approximately 70k-90k of income
 * Around 20 to 70 years old with the maximum around 30 to 60 years old
 * Bought approximately 800-2000 products
