@@ -63,12 +63,64 @@ Below are a few highlights from my analysis.
 ![Income_Edu](https://user-images.githubusercontent.com/60106788/141610484-aa690f46-c117-4bf4-a672-b5f9ec8abc62.PNG)
 ![Mnt_Prods](https://user-images.githubusercontent.com/60106788/141610486-2fa99f01-d3b2-40ee-a3cb-a6a6c5c3a090.PNG)
 ![cust_gen](https://user-images.githubusercontent.com/60106788/141610499-b2f9ebdb-d395-4ebc-ab10-35e6949eeb47.PNG)
-![corr_each_columns](https://user-images.githubusercontent.com/60106788/141610481-52633133-7a0a-4edd-8d17-3f73438fb216.PNG)
 ![corr_income_purchase](https://user-images.githubusercontent.com/60106788/141610482-4eeeaa60-87bc-4b7c-809a-41ffa5ac474a.PNG)
+![corr_each_columns](https://user-images.githubusercontent.com/60106788/141610481-52633133-7a0a-4edd-8d17-3f73438fb216.PNG)
 
 # Model Building 
-First, I manually encode Education and Marital Status then scale the essential features for modelling. After that I put the scaled into a new variable named X.
+First, I manually encoded Education and Marital Status then scale the essential features for modelling. After that I put the scaled features into a new variable named X.
 
+I utilized the Elbow Method to pick the best K value for K-Means
+
+![elbow_method](https://user-images.githubusercontent.com/60106788/141610843-712e4fea-2e9b-491e-b6f5-51f90d715a03.PNG)
+
+I picked 4 because it's the best K value for K-Means 
+
+# Model Performance
+From the results of the clustering process, there are four types of customers:
+
+1. 48% of customers (Majority)
+* All of them are Postgraduates
+* Higher number of people who are in relationship than single people
+* Have an approximately 20k-50k of income
+* Around 25 to 60 years old with the maximum around 35 to 45 years old
+* Bought approximately 50-400 products
+* Made a purchase approximately 5-20 times
+* Higher number of children than no child
+* Most of them reject the marketing campaign
+* Highest number of customers who have loyalty with the company for a long period of time
+
+2. 38% of customers
+* Slightly lower number of Postgraduates than 48% of people
+* It's the same circumstances as 48% of people but slightly lower number of people
+* Have an approximately 40k-80k of income
+* Around 30 to 70 years old with the maximum around 45 to 60 years old
+* Bought approximately 500-1700 products
+* Made a purchase approximately 15-30 times
+* Slightly higher number of children than no child
+* Most of them reject the marketing campaign
+* Slightly lower number of loyal customers compared to 48% of customers
+
+3. 12% of customers 
+* Significantly lower Postgraduates than the 38% of people 
+* The number of people who are in relationship are slightly higher than single people
+* Have an approximately 70k-90k of income
+* Around 20 to 70 years old with the maximum around 30 to 60 years old
+* Bought approximately 800-2000 products
+* Made a purchase approximately 15-25 times
+* Higher number of no child than have children
+* None of them reject the marketing campaign
+* Significantly lower number of loyal customers compared to 38% of customers
+
+4. 2% of customers (Minority)
+* All of them are Undergraduates
+* It's the same circumstances as 12% of customers but with lower number
+* Have an approximately 15k-30k of income
+* Around 20 to 65 years old with the maximum around 35 to 40 years old
+* Bought approximately 20-100 products
+* Made a purchase approximately 5-10 times
+* Slightly higher number of children than no child
+* Most of them reject the marketing campaign
+* Least number of loyal customers
 
 
 
