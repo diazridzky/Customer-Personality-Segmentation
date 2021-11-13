@@ -44,8 +44,8 @@ After importing the data, I needed to clean it up then made the following change
 * Sum up all the products bought
 * Sum up all the purchases made
 * Sum up all the children the customer have
-* Transformed the education level to either 'Undergraduate' or 'Postgraduate'
-* Transformed the marital status to either 'In Relationship' or 'Single'
+* Transformed the education level values to either 'Undergraduate' or 'Postgraduate'
+* Transformed the marital status values to either 'In Relationship' or 'Single'
 * Sum up all the family members the customer have
 * Sum up all the marketing campaigns the customer accepted
 * Transformed Dt_Customer by converting the data type from string to datetime 
