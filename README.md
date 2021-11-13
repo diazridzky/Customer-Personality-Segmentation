@@ -76,7 +76,7 @@ I utilized the Elbow Method to pick the best K value for K-Means
 I picked 4 because it's the best K value for K-Means. After the modelling process is done, I assigned each clusters to every row in the dataset by making a new column named Cluster.
 
 # Model Performance
-From the results of the clustering process, there are four types of customer:
+From the results of the clustering analysis, there are four types of customer:
 
 1. 48% of customers (Majority)
 * All of them are Postgraduates
