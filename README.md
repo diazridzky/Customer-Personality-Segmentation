@@ -55,6 +55,20 @@ After importing the data, I needed to clean it up then made the following change
 * Dropped columns such as ID, Year_Birth, Kidhome, Teenhome, Dt_Customer, Z_CostContact, Z_Revenue, Date_Collected, Customer_Enrolled to reduce the dimensionality of the dataset
 * Removed Outliers
 
+# Exploratory Data Analysis
+After I cleaned and engineered the data, I analyze the data so I could get an insight out of it.
+
+Below are a few highlights from my analysis.
+
+![Income_Edu](https://user-images.githubusercontent.com/60106788/141610484-aa690f46-c117-4bf4-a672-b5f9ec8abc62.PNG)
+![Mnt_Prods](https://user-images.githubusercontent.com/60106788/141610486-2fa99f01-d3b2-40ee-a3cb-a6a6c5c3a090.PNG)
+![cust_gen](https://user-images.githubusercontent.com/60106788/141610499-b2f9ebdb-d395-4ebc-ab10-35e6949eeb47.PNG)
+![corr_each_columns](https://user-images.githubusercontent.com/60106788/141610481-52633133-7a0a-4edd-8d17-3f73438fb216.PNG)
+![corr_income_purchase](https://user-images.githubusercontent.com/60106788/141610482-4eeeaa60-87bc-4b7c-809a-41ffa5ac474a.PNG)
+
+# Model Building 
+First, I manually encode Education and Marital Status then scale the essential features for modelling. After that I put the scaled into a new variable named X.
+
 
 
 
