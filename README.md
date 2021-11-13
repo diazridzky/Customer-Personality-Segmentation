@@ -35,3 +35,36 @@ Link to the dataset: https://www.kaggle.com/imakash3011/customer-personality-ana
 * AcceptedCmp4: 1 if customer accepted the offer in the 4th campaign, 0 otherwise
 * AcceptedCmp5: 1 if customer accepted the offer in the 5th campaign, 0 otherwise
 * Response: 1 if customer accepted the offer in the last campaign, 0 otherwise
+
+# Data Cleaning
+After importing the data, I needed to clean it up then made the following changes:
+* Filled a null value with the average value of the column
+* Subtracted the year 2014 with the year_birth column to get the age of the customer
+* Grouped the age column then made a new column named generation
+* Sum up all the products bought
+* Sum up all the purchases made
+* Sum up all the children the customer have
+* Transformed the education level to either 'Undergraduate' or 'Postgraduate'
+* Transformed the marital status to either 'In Relationship' or 'Single'
+* Sum up all the family members the customer have
+* Sum up all the marketing campaigns the customer accepted
+* Transformed Dt_Customer by converting the data type from string to datetime 
+* Made a new column named Date_Collected based on the assumption that the last time the data was updated was December 7, 2014 
+* Made a new column named Customer_Enrolled based on subtraction between Date_Collected with Dt_Customer 
+* Made a new column named Days_Active based on subtraction between Customer_Enrolled with Recency 
+* Dropped columns such as ID, Year_Birth, Kidhome, Teenhome, Dt_Customer, Z_CostContact, Z_Revenue, Date_Collected, Customer_Enrolled to reduce the dimensionality of the dataset
+* Removed Outliers
+
+# Exploratory Data Analysis
+
+
+
+
+
+
+
+
+
+
+
+
