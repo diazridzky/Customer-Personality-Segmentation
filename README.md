@@ -55,10 +55,6 @@ After importing the data, I needed to clean it up then made the following change
 * Dropped columns such as ID, Year_Birth, Kidhome, Teenhome, Dt_Customer, Z_CostContact, Z_Revenue, Date_Collected, Customer_Enrolled to reduce the dimensionality of the dataset
 * Removed Outliers
 
-# Exploratory Data Analysis
-
-
-
 
 
 
