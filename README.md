@@ -1,5 +1,5 @@
 # Customer Personality Segmentation: Project Overview 
-This project is a segmentation on a company's customers to learn the customer's behavior so the company could improve their knowledge of their customers and make better decisions.
+This project is a segmentation on a company's customers to learn the customer's information and behavior so the company could improve their knowledge of their customers and make better decisions.
 
 Link to the dataset: https://www.kaggle.com/imakash3011/customer-personality-analysis
 
