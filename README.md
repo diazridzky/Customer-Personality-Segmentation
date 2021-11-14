@@ -37,8 +37,10 @@ Link to the dataset: https://www.kaggle.com/imakash3011/customer-personality-ana
 * Response: 1 if customer accepted the offer in the last campaign, 0 otherwise
 
 # Data Cleaning
-After importing the data, I needed to clean it up then made the following changes:
+After importing the data, I needed to clean it up by doing the following:
 * Filled a null value with the average value of the column
+
+After I cleaned the data I engineer the features by doing the following:
 * Subtracted the year 2014 with the year_birth column to get the age of the customer
 * Grouped the age column then made a new column named generation
 * Sum up all the products bought
@@ -51,7 +53,7 @@ After importing the data, I needed to clean it up then made the following change
 * Transformed Dt_Customer by converting the data type from string to datetime 
 * Made a new column named Date_Collected based on the assumption that the last time the data was updated was December 7, 2014 
 * Made a new column named Customer_Enrolled based on subtraction between Date_Collected with Dt_Customer to get the total days of the customer's enrollment in the company
-* Made a new column named Days_Active based on subtraction between Customer_Enrolled with Recency to get the days when the customer was actively interact with the company
+* Made a new column named Days_Active based on subtraction between Customer_Enrolled with Recency to get the days when the customer was actively interacting with the company
 * Dropped columns such as ID, Year_Birth, Kidhome, Teenhome, Dt_Customer, Z_CostContact, Z_Revenue, Date_Collected, Customer_Enrolled to reduce the dimensionality of the dataset
 * Removed Outliers
 
