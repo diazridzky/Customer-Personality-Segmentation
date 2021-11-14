@@ -40,7 +40,7 @@ Link to the dataset: https://www.kaggle.com/imakash3011/customer-personality-ana
 After importing the data, I needed to clean it up by doing the following:
 * Filled a null value with the average value of the column
 
-After I cleaned the data I engineer the features by doing the following:
+After the data is clean, I engineer the features by doing the following:
 * Subtracted the year 2014 with the year_birth column to get the age of the customer
 * Grouped the age column then made a new column named generation
 * Sum up all the products bought
