@@ -65,7 +65,7 @@ Below are a few highlights from my analysis.
 ![Income_Edu](https://user-images.githubusercontent.com/60106788/141610484-aa690f46-c117-4bf4-a672-b5f9ec8abc62.PNG)
 ![Mnt_Prods](https://user-images.githubusercontent.com/60106788/141610486-2fa99f01-d3b2-40ee-a3cb-a6a6c5c3a090.PNG)
 ![cust_gen](https://user-images.githubusercontent.com/60106788/141610499-b2f9ebdb-d395-4ebc-ab10-35e6949eeb47.PNG)
-![corr_income_purchase](https://user-images.githubusercontent.com/60106788/141610482-4eeeaa60-87bc-4b7c-809a-41ffa5ac474a.PNG)
+![corr_income_amount](https://user-images.githubusercontent.com/60106788/142205361-7b553a0b-20e5-4223-8411-7998842434d2.PNG)
 ![corr_each_columns](https://user-images.githubusercontent.com/60106788/141610481-52633133-7a0a-4edd-8d17-3f73438fb216.PNG)
 
 # Model Building 
